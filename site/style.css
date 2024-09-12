@@ -1,0 +1,271 @@
+body {
+    background-color: #b5b2ab;
+}
+
+/* Barra de Navegação */
+
+ul {
+    position: fixed;
+    list-style-type: none;
+    margin-top: 53px;
+    padding: 0;
+    background-color: #404040;
+    width: 100px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+li {
+    float: left;
+    margin-top: 23px;
+}
+
+li a {
+    display: block;
+    color: #B5B2AB;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #404040;
+    color: #000000;
+}
+
+.container {
+    color: #b5b2ab;
+    background-color: #404040;
+    border-radius: 20px;
+    padding: 70px;
+    margin-left: 101px;
+}
+
+/* Titulo da primeira página */
+.pagina1 {
+    margin-top: 30px;
+}
+
+/* Título da segunda página */
+.pagina2 {
+    margin-top: 125px;
+    text-align: center;
+}
+
+/* Parágrafos contendo conteúdo */
+p {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+/* Foto 01 */
+.foto1 {
+    border-radius: 20px;
+    max-width: 16.05%;
+    height: auto;
+    transform: translate(1259px, -380px);
+} 
+
+/* Foto 02 */
+.foto2 {
+    position: relative;
+    border-radius: 50px;
+    max-width: 60%;
+    height: auto;
+    transform: translate(85px, 5px);
+} 
+
+/* icone */
+.foto3 {
+    max-width: 60%;
+    transform: translate(60px,50px);
+}
+
+.circulo {
+    width: 300px;
+    height: 300px;
+    background: #404040;
+    border-radius: 50%;
+    margin-top: -250px;
+    margin-left: 900px;
+
+}
+
+/* Link´s do portfólio */
+.circulo1 {
+    width: 200px;
+    height: 200px;
+    background: #b7b7a4;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 200px;
+
+}
+
+.circulo2 {
+    width: 200px;
+    height: 200px;
+    background: #a5a58d;
+    border-radius: 50%;
+    margin-top: -220px;
+    margin-left: 600px;
+
+}
+
+.circulo3 {
+    width: 200px;
+    height: 200px;
+    background: #a3a398;
+    border-radius: 50%;
+    margin-top: -220px;
+    margin-left: 1000px;
+
+}
+
+h4, a {
+    text-align: center;
+    color: #000000;
+    padding-top: 90px;
+    text-decoration: none;
+}
+
+/* Formulário de contato */
+
+form {
+    margin-left: 400px;
+}
+
+input, form textarea {
+    background-color: #404040;
+    color: #a3a398;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+}
+
+button {
+    background-color: #404040;
+    color: #a3a398;
+}
+
+.container2 {
+    color: #b5b2ab;
+    background-color: #404040;
+    border-radius: 20px;
+    padding: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.final{
+    padding-left: 80px;
+}
+
+@media only screen and (max-width: 425px) {
+    
+    body {
+        margin: auto;
+    }
+
+    ul {
+        margin-left: 3px;
+        height: 350px;
+    }
+
+    .container {
+        font-size: x-small;
+        margin-left: 105px;
+        max-width: 177px;
+        flex-flow: row wrap;
+    
+    }
+    .pagina2 {
+
+        max-width: 0px;
+        margin-left: 125px;
+        flex-flow: row wrap;
+    }
+
+    p {
+        margin-left: 105px;
+        margin-right: 20px;
+    }
+
+    .foto1 {
+        max-width: 20%;
+        transform: translate(299px,-415px);
+
+    }
+
+    .foto2 {
+        max-width: 60%;
+        border-radius: 10px;
+        transform: translate(35px, 0px);
+    } 
+    
+    .foto3 {
+        transform: translate(25px,20px);
+    }
+
+
+    .circulo {
+        width: 110px;
+        height: 110px;
+        margin-left: 250px;
+        margin-top: -240px;    
+    }
+
+    .circulo1 {
+        margin-top: -130px;
+        margin-left: 180px;
+        width: 120px;
+        height: 120px;    
+    }
+
+    .circulo2 {
+        margin-top: 15px;
+        margin-left: 180px;
+        width: 120px;
+        height: 120px;
+
+    }
+    
+    .circulo3 {
+        margin-top: 15px;
+        margin-left: 180px;
+        width: 120px;
+        height: 120px;
+
+    }
+
+    form {
+        margin-left: 10px;
+    }
+
+    textarea {
+        width: 180px;
+        height: 100px;
+    }
+
+    input, form textarea {        
+        margin: 0 0 5px;
+        padding: 5px 15px;
+    }
+
+    h4, a {
+        font-size: 13px;
+        padding-top: 50px;
+    }
+
+    .container2 {
+        padding: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .final{
+        text-align: left;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
